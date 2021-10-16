@@ -1,0 +1,49 @@
+/* main style */
+
+/* To remove default style from browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #eee;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+
+
+h3, .title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    padding-top: 20px;
+
+}
+
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px;
+    
+}
+
+.fruits {
+    margin: 10px;
+    background-color: dodgerblue;
+}
